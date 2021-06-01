@@ -25,4 +25,10 @@ CFStringRef const kDomain = CFSTR("com.apple.springboard");
     CFPreferencesAppSynchronize(kDomain);
 }
 
+- (void)applyAlternateActionForSwitchIdentifier:(NSString *)switchIdentifier
+{
+    NSURL *url = [NSURL URLWithString:@"prefs:root=DISPLAY#RAISE_TO_WAKE"];
+    [[FSSwitchPanel sharedPanel] openURLAsAlternateAction:url];
+}
+
 @end
