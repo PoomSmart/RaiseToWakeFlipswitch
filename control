@@ -1,9 +1,9 @@
-Package: com.ps.raisetowakefs
+Package: com.ps.raisetowakeflipswitch
 Name: Raise To Wake Flipswitch
-Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 10.0)
-Version: 0.0.1
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Toggle for Raise To Wake option.
+Description: Flipswitch toggle for Raise To Wake.
 Maintainer: PoomSmart
 Author: PoomSmart
 Section: Addons (Flipswitch)
